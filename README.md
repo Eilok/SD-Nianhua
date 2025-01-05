@@ -27,11 +27,13 @@ pipe =StableDiffusionControlNetPipeline.from_pretrained(
 
 The original data can be found in [here](https://pan.baidu.com/s/1Dj_ZukKcFH23BDnSahAKmw?pwd=yben), which was collected from the [database of Chinese wooden New Year pictures](https://engravings.ancientbooks.cn/subIndexmbnh.jspx).
 
-<center class="half">
-    <img src="./dataset/train_folder/train_0.jpg" width="200"/><img src="./dataset/train_folder/train_1.JPG" width="200"/><img src="./dataset/train_folder/train_2.jpg" width="200"/>
+<div align="center">
+    <img src="./dataset/train_folder/train_0.jpg" width="200"/>
+    <img src="./dataset/train_folder/train_1.JPG" width="200"/>
+    <img src="./dataset/train_folder/train_2.JPG" width="200"/>
     <br>
     <div>image examples</div>
-</center>
+</div>
 
 ## Start Up
 
@@ -43,11 +45,12 @@ Follow the steps below to run the project:
 5. Revise the path in the `test.ipynb` and run it to test the model performance.
 
 ## Results
-<center class="half">
-    <img src="./human/human_2.png" width="200"/><img src="./generated_images/ori_img/ori_2.jpg" width="200"/>
-</center>
-<center>
-    <img src="./generated_images/Lora_img/test_2.jpg" width="200"/><img src="./generated_images/AdaLoRA_img/generated_human_2.png" width="200"/>
+<div align="center">
+    <img src="./human/human_2.png" width="200"/>
+    <img src="./generated_images/ori_img/ori_2.jpg" width="200"/>
+    <br>
+    <img src="./generated_images/Lora_img/test_2.jpg" width="200"/>
+    <img src="./generated_images/AdaLoRA_img/generated_human_2.png" width="200"/>
     <br>
     <div>generation example</div>
-</center>
+</div>
